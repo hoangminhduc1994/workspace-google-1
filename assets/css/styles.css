@@ -1,0 +1,181 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    max-width:1349px;
+}
+.body-content{
+    display:flex;
+    justify-content: center;
+}
+.container{
+    width:898px;
+    display:flex;
+}
+.header{
+    width:100%;
+    height:64px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #dadce0;
+    position:sticky;
+    top:0;
+    z-index: 999;
+}
+.google-workspace-logo{
+    width:211px;
+    height:27px;
+}
+.body-content-left{
+    width:390px;
+    height:612px;
+    padding: 0 15px 0 15px;
+    display:flex;
+    flex-direction: column;
+}
+.body-content-left-top h2{
+    width:100%;
+    margin: 36px 0 24px 0;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 400;
+}
+.business-name input{
+    width:360px;
+    height:56px;
+    font-size:16px;
+    line-height: 24px;
+    padding-left:20px;
+}
+.body-content-left-middle p{
+    margin: 16px 0 16px 0;
+}
+.number-employee {
+
+}
+.number-employee input {
+    margin-top: 27px;
+}
+.body-content-left-bottom {
+    margin-top:40px;
+}
+.button {
+    margin-top: 30px;
+}
+.button a{
+    background-color: blue;
+    padding: 10px 22px;
+    color: white;
+    border-radius: 24%;
+    
+    text-decoration: none;
+}
+
+
+
+#region-dropdown {
+    width: 100%;
+    height:48px;
+    padding: 5px;
+    border: 0;
+    font-size: 16px;
+}
+#region-fieldset {
+    border-radius: 5px;
+}
+#region-fieldset legend {
+    font-size: 12px;
+}
+.body-content-right{
+    height: 576px;
+    width: 335px;
+    margin: 0 60px 0 120px;
+}
+.image-1 {
+    height:50px;
+    width: 50px;
+    margin-left: 140px;
+    margin-top: 40px;
+}
+.image-2 {
+    height: 48px;
+    width: 222px;
+    margin-left: 50px;
+}
+.google-ai {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    font-family: 'Google Sans';
+    font-weight: 0.2px;
+    margin: 16px 15px 16px 0;
+}
+.gemini {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Google Sans';
+    text-align: center;
+}
+
+.refine-meeting-notes-box {
+    background-color: #f0f4f9;
+    border: 1.65px solid #fff;
+    border-radius: 12px;
+    height: 202px;
+    margin-bottom: 40px;
+    margin-top: 24px;
+    padding: 16px 9px;
+    width: 340px;
+}
+.refine-meeting-notes {
+    background: #fff;
+    border: 1px solid rgb(218, 220, 224);
+    border-radius: 8px;
+    height: 155px;
+    width: 320px;
+}
+.refine-meeting-notes .caption {
+    font-weight: 500;
+    letter-spacing: .006rem;
+    line-height: 1rem;
+    display: flex;
+    flex-direction: row;
+    padding: 11px 8px 23px;
+}
+.notes {
+    display: flex;
+    flex-direction: column;
+    height: 82px;
+    justify-content: space-between;
+    padding-left: 13px;
+}
+.notes-line {
+    background-image: linear-gradient(135deg, var(--gm3-sys-color-primary-fixed, #d3e3fd), #84C4ff);
+    border-radius: 8px;
+    height: 10px;
+}
+.float-menu {
+    position: relative;
+    border-radius: 4px;
+    left: 150px;
+    padding: 3px 0;
+    top: -67px;
+    width: 147px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.float-menu-item {
+    font-size: .8rem;
+    font-weight: 500;
+    letter-spacing: .006rem;
+    line-height: 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 3px 11px;
+    margin: 1px 0;
+}
